@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web API Quiz</title>
+    <link rel="stylesheet" href="/assests/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Lato&family=Oswald:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Start quiz-->
+    <div class="start_button">
+        <button>Start Quiz</button>
+    </div>
+    <!--Instructional Box-->
+    <div class="instruction_box">
+        <div class="instruction_title"> <span>What to expect...</span> </div> 
+            <div class="instruction_list">
+                <div class="instruction">- You are only given <span>60 seconds</span> to complete.</div>
+                <div class="instruction">- Once you have selected an answer you are not able to change it.</div>
+                <div class="instruction">- Points will be earned with each correct answer selected.</div>
+                <div class="instruction">- If no answer has been selected before time has expired, you will be deducted points.</div>
+            </div>
+            <div class="buttons">
+                <button class="restart">Exit Quiz</button>
+                <button class="continue">Continue</button>
+            </div>
+    </div>
+
+        <!--Quiz Box-->
+        <div class="quiz_box">
+            <!--Header-->
+            <header class= header_quiz_box>
+                <div class="quiz_title">Full Stack Web Dev Knowledge Check</div>
+                <div class="timer">
+                    <div class="time_text">Time Left</div>
+                    <div class="timer_sec">15</div>
+                </div>
+                <div class="timeline"></div>
+            </header>
+            <!--Body-->
+            <section class="quiz_box_content">
+                <div class="question_text">
+                    <!-- <span>What does HTML stand for?</span> -->
+                </div>
+                <div class="question_ans_list">  
+                   <!--</div> <div class="question_ans">
+                        <span>Hyper Text Markup Language</span>
+                        <div class="question_check"><i class="fas fa-check"></i></div>
+                    </div>
+                        
+                    <div class="question_ans">
+                            <span>Hyper Text Multi Language</span>
+                            <div class="question_x"><i class="fas fa-times"></i></div>
+                    </div>
+                    
+                    <div class="question_ans">
+                        <span>Hyper Text Multi Language</span>
+                    </div>
+                    
+                    <div class="question_ans">
+                        <span>Hyper Text Multi Language</span>
+                    </div> -->
+                
+                </div>   
+            
+            </section>
+
+            <!--Footer-->
+            <section class="quiz_box_footer">
+                <div class="total_que">
+                    <!--<span><p>1</p>of<p>5</p>Questions</span> -->
+                </div>
+                <button class=footer_button>Next</button>
+            </section>
+        </div>    
+
+            <!--Results-->
+            <section class="result_box">
+                <div class="result_icon"></div>
+                <div class="result_text">You've completed the Quiz!</div>
+                
+                <div class="result_score">
+                    <!--<span>You earned a score of <p>2</p>out of<p>5</p></span> -->
+                </div>
+                
+                <div class="result_buttons">
+                    <button class="result_replay_button">Replay Quiz</button>
+                    <button class="result_exit_button">Exit Quiz</button>
+                </div>
+            </section>
+
+
+    
+    </section>   
+
+    <script src="/assests/script.js"></script>
+    <script src="/assests/questions.js"></script>
+</body>
+</html>
