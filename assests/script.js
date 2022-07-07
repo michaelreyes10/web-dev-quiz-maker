@@ -160,3 +160,4 @@ function queCounter (index){
     bottom_que_counter.innerHTML = totalQueCountTag;
 
 }
+
